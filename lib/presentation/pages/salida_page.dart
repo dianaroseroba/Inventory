@@ -26,7 +26,7 @@ class SalidaPage extends StatelessWidget {
 
             return Card(
               child: ListTile(
-                title: Text(item.tipo == 'eje'
+                title: Text(item.tipo == 'Eje'
                     ? 'Eje: ${item.calidad}, Ø${item.diametro} x ${item.largoEje}'
                     : 'Lámina: ${item.tipoMaterial}, ${item.largoLamina}x${item.ancho}, Calibre ${item.calibre}'),
                 subtitle: Text('Cantidad actual: ${item.cantidad}'),
